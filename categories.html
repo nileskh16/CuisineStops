@@ -1,0 +1,9 @@
+
+<div ng-app = 'skapp'>
+  <ul style = "list-style-type: none;">
+    <li ng-repeat = "item in con.items" ui-sref = "categories.item({id:$index})">
+    {{ item.name }}
+    </li>
+    <ui-view id = "items"><ui-view>
+  </ul>
+</div>
