@@ -36,10 +36,11 @@ list.$inject = ['$q', '$timeout'];
 function list($q, $timeout){
   var service = this;
   var items = [];
-  items.push({name:'American', en: ['Hotdogs', 'Pancakes', 'Burgers', 'Donut', 'Pies']});
-  items.push({name:'Italian', en: ['Pizza', 'Pasta', 'Maggie']});
-  items.push({name:'Indian', en: ['Rotee', 'Panipuri', 'Rabadi']});
-  items.push({name:'Mexican', en: ['Chilli chocolate cookies', 'Nacho']});
+  items.push({name:'American', en: ['Hotdogs', 'Pancakes', 'Burgers', 'Donut', 'Choc chip pecan pie', 'American burnt onion dip', 'Cornbread', 'John Torode\'s big burger', 'Pumpkin Pie', 'Cobb salad with buttermilk ranch dressing']});
+  items.push({name:'Italian', en: ['Pizza', 'Pasta', 'Affogato al caffè', 'Fig & prosciutto pizzettas', 'Aubergine rolls with spinach & ricotta', 'Gnocchi with parsley, butter & samphire']});
+  items.push({name:'Indian', en: ['Rotee', 'Panipuri', 'Rabadi', 'Sambar', 'Puran Poli', 'Kerelan Vege Wrap']});
+  items.push({name:'Mexican', en: ['Chilli chocolate cookies', 'Mexican veggie wraps', 'Homemade tortilla chips', 'Mexican chicken stew', 'Mexican potatoes', 'Chilli con carne']});
+  items.push({name: 'Caribbean', en: ['Rum punch', 'Sticky jerk salmon with mango slaw', 'Caribbean patties', 'Tropical breakfast smoothie', 'Reggae reggae nachos']})
   items.push({name:'Chinese', en: ['Rice', 'Noodles', 'Chopsie']});
 
   service.getItems = function(){
