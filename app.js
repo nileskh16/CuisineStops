@@ -39,7 +39,7 @@ function list($q, $timeout){
   items.push({name:'American', en: ['Hotdogs', 'Pancakes', 'Burgers', 'Donut', 'Pies']});
   items.push({name:'Italian', en: ['Pizza', 'Pasta', 'Maggie']});
   items.push({name:'Indian', en: ['Rotee', 'Panipuri', 'Rabadi']});
-  items.push({name:'Mexican', en: ['Chilie', 'Nacho']});
+  items.push({name:'Mexican', en: ['Chilli chocolate cookies', 'Nacho']});
   items.push({name:'Chinese', en: ['Rice', 'Noodles', 'Chopsie']});
 
   service.getItems = function(){
