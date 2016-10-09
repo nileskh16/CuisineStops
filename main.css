@@ -6,7 +6,7 @@ font-size: 15px;
   display: block;width: 40%;float: left; position: relative;top: 50px; left: 20px;
 }
 #items{
-    display: block;width: 40%;float: right; position: absolute ;top: 100px; left: 10px;
+    display: block;width: 40%;float: right; position: absolute ;top: 10px; left: 180px;
 }
 #items li{
   margin: 5px;
